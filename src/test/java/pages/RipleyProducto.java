@@ -48,7 +48,7 @@ public class RipleyProducto extends Base {
 		
 	}
 	
-	public void continuar() throws InterruptedException {
+	public void continuar_() throws InterruptedException {
 		esperarElemento(2);
 		click(btnContinuar);
 		esperarSegundos(4);

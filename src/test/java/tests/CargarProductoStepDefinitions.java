@@ -76,7 +76,7 @@ public class CargarProductoStepDefinitions {
 
 	@When("^el usuario hace click en el boton continuar$")
 	public void el_usuario_hace_click_en_el_boton_continuar() throws Throwable {
-		paginaProducto.continuar();
+		paginaProducto.continuar_();
 	}
 
 	@When("^el usuario hace click en el boton bolsa de compra$")
