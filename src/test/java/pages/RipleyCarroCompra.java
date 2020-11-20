@@ -36,7 +36,7 @@ public class RipleyCarroCompra extends Base {
 			
 	
 	public String obtenerPrecio() throws InterruptedException {
-		esperarSegundos(4);
+		esperarSegundos(6);
 		return obtenerTexto(txtPrecioCarro);
 	}	
 }

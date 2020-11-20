@@ -48,7 +48,7 @@ public class RipleyProducto extends Base {
 		
 	}
 	
-	public void continuar() throws InterruptedException {
+	public void continuar_() throws InterruptedException {
 		esperarElemento(2);
 		click(btnContinuar);
 		esperarSegundos(4);
@@ -56,7 +56,7 @@ public class RipleyProducto extends Base {
 		click(btnCancelar);
 	}
 	
-	public void irAlCarro() throws InterruptedException {
+	public void irAlCarro_() throws InterruptedException {
 		esperarSegundos(4);
 		click(btnCarro);
 	}
