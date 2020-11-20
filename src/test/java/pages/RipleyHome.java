@@ -48,7 +48,7 @@ public class RipleyHome extends Base {
 		click(btnMenuu);
 	}
 	
-	public void electro () throws InterruptedException {
+	public void electronico () throws InterruptedException {
 		esperarElemento(2);
 		click(btnElectro);
 	}

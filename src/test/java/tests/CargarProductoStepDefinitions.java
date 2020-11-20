@@ -51,7 +51,7 @@ public class CargarProductoStepDefinitions {
 
 	@When("^el usuario hace click en el boton tecno$")
 	public void el_usuario_hace_click_en_el_boton_tecno() throws Throwable {
-		paginaInicialRipley.electro();
+		paginaInicialRipley.electronico();
 	}
 
 	@When("^el usuario hace click en el boton Notebooks$")
