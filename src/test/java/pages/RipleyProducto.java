@@ -56,7 +56,7 @@ public class RipleyProducto extends Base {
 		click(btnCancelar);
 	}
 	
-	public void irAlCarro() throws InterruptedException {
+	public void irAlCarro_() throws InterruptedException {
 		esperarSegundos(4);
 		click(btnCarro);
 	}
