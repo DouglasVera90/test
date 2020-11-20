@@ -13,4 +13,4 @@ Scenario: Verificar que el usuario pueda cargar un notebook en el carro de compr
 	And el usuario hace click en el boton bolsa de compra
 	And el usuario hace click el el boton ir a la bolsa
 	Then el precio del producto es el esperado
-		| $849.990 |
+		| $849.9900 |
