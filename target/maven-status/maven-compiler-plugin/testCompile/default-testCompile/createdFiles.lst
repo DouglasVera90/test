@@ -1,0 +1,7 @@
+pages\RipleyCategoriaNotebook.class
+tests\CargarProductoStepDefinitions.class
+testRunners\CucumberRunner.class
+pages\RipleyProducto.class
+pages\RipleyHome.class
+utilidades\Base.class
+pages\RipleyCarroCompra.class
