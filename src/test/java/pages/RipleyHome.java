@@ -32,7 +32,7 @@ public class RipleyHome extends Base {
 	By txtMensaje = By.className("message");
 	
 	//Identificador boton menu
-	By btnMenu = By.xpath("//div[@class='menu-button__icon']");
+	By btnMenuu = By.xpath("//div[@class='menu-button__icon']");
 
 	//Identificador boton electro
 	By btnElectro = By.xpath("//a[@class='category-item-tecno']");
@@ -44,8 +44,8 @@ public class RipleyHome extends Base {
 	public void menu() throws InterruptedException {
 		//buscarElementoWebConEspera(btnCancelar);
 		//click(btnCancelar);
-		buscarElementoWebConEspera(btnMenu);
-		click(btnMenu);
+		buscarElementoWebConEspera(btnMenuu);
+		click(btnMenuu);
 	}
 	
 	public void electro () throws InterruptedException {
