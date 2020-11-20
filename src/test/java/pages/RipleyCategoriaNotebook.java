@@ -28,9 +28,9 @@ public class RipleyCategoriaNotebook extends Base {
 	By btnCancelar = By.id("onesignal-slidedown-cancel-button");
 	
 	public void filtraMarcaHP() throws InterruptedException {
-		esperarSegundos(1);
+		esperarSegundos(2);
 		click(contenedor);
-		esperarElemento(1);
+		esperarElemento(2);
 		click(btnHP);
 	}
 	
